@@ -1,7 +1,0 @@
-CFF explorer: PE 헤더 분석
-FASM: 어셈블리 빌더
-IDA: 디스어셈블러
-PEiD: 파일 분석
-snowman: 디컴파일러
-UPX: 파일 압축, 해제
-x96dbg: 디버거
