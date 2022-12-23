@@ -1,0 +1,84 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\title{Language and Grammer}
+\date{}
+\begin{document}
+
+\maketitle
+
+\section*{2.1 Language}
+
+language: set of sentence.\\
+sentence: set of word, grammer.\\
+word: set of alphabet.\\ \\ 
+\large\ Alphabet
+\\
+
+\large \qquad $T$ \normalsize\ - set of word. \quad  ex) set of ab: aaababaa.
+
+\qquad\qquad\qquad\qquad\qquad\qquad\; set of 01: 01011101101.
+\\
+
+\large \qquad $T^*$ \normalsize - Any sentence that can be made into a word set.
+\\
+
+\large \qquad $T^+$ \normalsize - $T^*$ minus $\epsilon$ only.
+\\
+
+\large \qquad \large Therefore, Language is a subset of the $T^*$ set.
+\\
+\\
+
+\large String
+\\
+
+\large \qquad $\omega$ \normalsize\ - string.
+\\
+\\
+
+\large Length
+\\
+
+\large \qquad $|\omega|$ \normalsize\ - length of string.
+\\
+\\
+
+\large Empty string
+\\
+
+\large \qquad $\epsilon$ or $\lambda$
+\\
+\\
+
+\large Concatenation
+\\
+
+\large \qquad \qquad String u, v
+\\
+
+\large $u \cdot v$ \normalsize - combine.
+\\
+
+\large $u\epsilon = u = \epsilon u $
+\\
+
+\large $\forall\, u,v\in T^*, uv \in T^*$ \normalsize - If u,v is configured as 01, uv is also configured as 
+
+\qquad \qquad \qquad \qquad \qquad \;\; 01.
+\\
+
+\large ${LL^'}=\{{xy} | x\in L \,and\, y \in {L^'}\}$
+\\
+
+\large ${L^0}=\{\epsilon\}$
+\\
+
+\large ${L^n}=L{L^{n-1}} \;(n \geq 1)$
+\\
+
+\large $L^*$: ${L^0} \cup {L^1} \cup {L^2} \cup {L^3} \cdots \, \cup {L^n} \cdots = U_{i=0}^\infty{L^i} $
+\\
+
+\large ${L^+}$: ${L^n} - {L^0}$
+\end{document}
