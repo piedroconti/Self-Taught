@@ -1,4 +1,4 @@
-# Self-Taught
+# Self-study
 
 BOJ_Algorithm
 https://www.acmicpc.net/user/piedroconti
